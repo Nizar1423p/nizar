@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Blog</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/x-icon" href="./icon.jpeg">
+</head>
+<body>
+
+<header>
+    <h1>Chess Blog</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#blog">Articles</a>
+        <a href="#blog-details">Article Details</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+</header>
+
+<div class="container" id="home">
+    <h2>Welcome to the Chess Blog</h2>
+    <p>
+        Dive into the fascinating world of chess with us! Our blog is dedicated to chess enthusiasts of all levels, offering everything 
+        from beginner tips to advanced strategies. Explore articles on famous games, in-depth analyses of championship matches, 
+        and interviews with top players. Whether you're here to improve your game or simply enjoy the beauty of chess, we have something for you.
+    </p>
+</div>
+
+<div class="container" id="blog">
+    <h2>Articles</h2>
+
+    <div class="post" id="post1">
+        <h3>Top Chess Openings for Success</h3>
+        <img src="./chessp1.png" alt="Chess Openings" width="200" height="300">
+        <p><strong>Date:</strong> November 7, 2024 <strong>Author:</strong> John Smith</p>
+        <p>
+            Chess openings set the stage for the entire game. Learn about the most effective openings used by grandmasters to dominate 
+            their opponents. From the Sicilian Defense to the King's Gambit, we've got you covered. 
+            <a href="#post1-details">Read more...</a>
+        </p>
+    </div>
+
+    <div class="post" id="post2">
+        <h3>World Chess Championship 2024 Analysis</h3>
+        <img src="./chessp2.webp" alt="World Chess Championship" width="200" height="300">
+        <p><strong>Date:</strong> November 6, 2024 <strong>Author:</strong> Alice Johnson</p>
+        <p>
+            Relive the drama and intensity of the 2024 World Chess Championship. Discover how Magnus Carlsen and Hans Niemann battled it out 
+            in a series of epic games. Explore the critical moves, turning points, and insights into the players' minds. 
+            <a href="#post2-details">Read more...</a>
+        </p>
+    </div>
+
+    <div class="post" id="post3">
+        <h3>How to Become a Chess Grandmaster</h3>
+        <img src="./1722423870.webp" alt="Chess Grandmaster" width="200" height="300">
+        <p><strong>Date:</strong> November 5, 2024 <strong>Author:</strong> Sarah Lee</p>
+        <p>
+            Becoming a chess grandmaster requires dedication, practice, and strategy. This comprehensive guide explores the steps to achieving 
+            the prestigious title, including practical tips and advice from experts. 
+            <a href="#post3-details">Read more...</a>
+        </p>
+    </div>
+</div>
+
+<div class="container" id="blog-details">
+    <div class="container" id="post1-details">
+        <h2>Top Chess Openings for Success</h2>
+        <p>
+            Chess openings are the foundation of any strong game. They set the tone, dictate the pace, and often determine the outcome. 
+            In this article, we delve into the top openings that every player should know:
+        </p>
+        <ul>
+            <li><strong>Sicilian Defense:</strong> A popular choice for counterattacking against 1.e4. It offers dynamic play and countless variations.</li>
+            <li><strong>Ruy Lopez:</strong> A classic opening that emphasizes control of the center and long-term planning.</li>
+            <li><strong>Queen's Gambit:</strong> A reliable opening for players who favor positional play and solid structures.</li>
+        </ul>
+        <p>Master these openings, and you'll gain a significant edge over your opponents!</p>
+        <form id="commentForm1">
+            <input type="text" placeholder="Your Name" required>
+            <textarea placeholder="Your Comment" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="commentsList1"></div>
+    </div>
+
+    <div class="container" id="post2-details">
+        <h2>World Chess Championship 2024 Analysis</h2>
+        <p>
+            The 2024 World Chess Championship was a thrilling event, featuring the reigning champion Magnus Carlsen and the rising star Hans Niemann. 
+            The match included bold sacrifices, intricate endgames, and moments of sheer brilliance. 
+        </p>
+        <p>
+            Carlsen's experience and Niemann's creativity clashed in a way that captivated chess fans worldwide. Here's a breakdown of the most 
+            critical games and their pivotal moves.
+        </p>
+        <form id="commentForm2">
+            <input type="text" placeholder="Your Name" required>
+            <textarea placeholder="Your Comment" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="commentsList2"></div>
+    </div>
+
+    <div class="container" id="post3-details">
+        <h2>How to Become a Chess Grandmaster</h2>
+        <p>
+            The path to becoming a chess grandmaster is challenging but rewarding. It requires not only skill and hard work but also 
+            a deep understanding of the game. Here are the key steps:
+        </p>
+        <ol>
+            <li>Study classical games and learn from the legends.</li>
+            <li>Participate in tournaments and gain rating points.</li>
+            <li>Work with a coach to refine your skills and identify weaknesses.</li>
+            <li>Maintain a rigorous practice schedule and focus on both tactics and strategy.</li>
+        </ol>
+        <p>With persistence and passion, you can join the elite ranks of chess grandmasters!</p>
+        <form id="commentForm3">
+            <input type="text" placeholder="Your Name" required>
+            <textarea placeholder="Your Comment" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="commentsList3"></div>
+    </div>
+</div>
+
+<div class="container" id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+        <img src="./chessp1.png" alt="Chessboard">
+        <img src="./chessp2.webp" alt="Chess Tournament">
+        <img src="./1722423870.webp" alt="Chess Players">
+    </div>
+</div>
+
+<div class="container" id="about">
+    <h2>About Us</h2>
+    <p>
+        We are a team of passionate chess enthusiasts dedicated to sharing knowledge, strategies, and stories from the chess world. 
+        Our goal is to inspire and educate players of all levels while celebrating the beauty and complexity of the game.
+    </p>
+</div>
+<div class="container" id="contact">
+	<h3>Follow us on social media</h3>
+<div class="social-media">
+    <a href="eel7@stu.okan.edu.tr" class="social-icon gmail" target="_blank">
+        <i class="fas fa-envelope"></i> Gmail
+    </a>
+    <a href="https://www.facebook.com/profile.php?id=61553618537256&mibextid=ZbWKwL" class="social-icon facebook" target="_blank">
+        <i class="fab fa-facebook"></i> Facebook
+    </a>
+    <a href="https://www.instagram.com/mlal2668?igsh=bjYzcTFtYno2Mnow" class="social-icon instagram" target="_blank">
+        <i class="fab fa-instagram"></i> Instagram
+    </a>
+<div class="container" id="contact">
+    <h2>Contact Us</h2>
+    <form>
+        <input type="text" placeholder="name" required>
+        <input type="email" placeholder="email" required>
+        <textarea placeholder="your massage" required></textarea>
+        <button type="submit">send</button>
+    </form>
+    <h3>Subscribe to updates</h3>
+    <form id="subscribeForm">
+        <input type=" placeholder="your email" required>
+        <button type="submit">subscribe</button>
+    </form>
+</div>
+
+<footer>
+    <p>&copy; 2024 Chess Blog. All rights reserved.</p>
+</footer>
+
+<script src="./script.js"></script>
+</body>
+</html>
